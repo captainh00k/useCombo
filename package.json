@@ -1,0 +1,11 @@
+{
+  "name": "useCheat",
+  "version": "1.0.0",
+  "description": "just because we use cheats doesn't mean we're not smart",
+  "main": "index.js",
+  "author": "Pieter Stokkink",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
