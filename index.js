@@ -36,7 +36,8 @@ function parseCode (code) {
 }
 
 export default function useCheat (callback, cheatCode = defaultCode) {
-    const [remainingCharacters, setRemainingCharacters] = useState(parseCode(cheatCode))
+    const parsedCode = parseCode(defaultCode)
+    const [remainingCharacters, setRemainingCharacters] = useState(parsedCode)
 
     const handleKeypress = (e) => {
         const [ current, ...rest ] = remainingCharacters
@@ -44,10 +45,10 @@ export default function useCheat (callback, cheatCode = defaultCode) {
             setRemainingCharacters(rest)
             if (rest.length === 0) {
                 callback()
-                setRemainingCharacters(parseCode(cheatCode))
+                setRemainingCharacters(parsedCode)
             }
         } else {
-            setRemainingCharacters(parseCode(cheatCode))
+            setRemainingCharacters(parsedCode)
         }
     }
 
