@@ -10,6 +10,7 @@
     "url": "https://github.com/forkerino/useCheat.git"
   },
   "dependencies": {
-    "react": "^16.8.6"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
