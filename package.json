@@ -1,5 +1,5 @@
 {
-  "name": "useCheat",
+  "name": "use-cheat",
   "version": "0.9.0",
   "description": "Custom React hook to trigger event after key combination",
   "main": "build/index.js",
