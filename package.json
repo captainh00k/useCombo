@@ -1,9 +1,12 @@
 {
   "name": "use-cheat",
-  "version": "0.9.0",
+  "version": "0.9.4",
   "description": "Custom React hook to trigger event after key combination",
   "main": "build/index.js",
-  "author": "Pieter Stokkink",
+  "author": {
+    "name": "Pieter Stokkink",
+    "email": "p4818s@gmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
