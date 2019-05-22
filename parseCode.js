@@ -1,10 +1,20 @@
 const codes = {
-    'up': 38,
+    'alt': 18,
+    'altr': 225,
+    'backspace': 8,
+    'ctrl': 17,
+    'delete': 46,
     'down': 40,
-    'left': 37,
-    'right': 39,
+    'end': 35,
     'enter': 13,
-    'return': 13
+    'esc': 27,
+    'home': 36,
+    'left': 37,
+    'return': 13,
+    'right': 39,
+    'shift': 16,
+    'tab': 9,
+    'up': 38,
 }
 
 export default function parseCode (code) {
