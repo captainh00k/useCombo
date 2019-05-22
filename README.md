@@ -50,19 +50,19 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 Valid codes:
-{alt}: alt
-{altr}: right alt
-{backspace}: backspace
-{ctrl}: control
-{delete}: delete
-{down}: down arrow
-{end}: end
-{enter}: enter/return
-{esc}: escape
-{home}: home
-{left}: left arrow
-{return}: enter/return
-{right}: right arrow
-{shift}: shift
-{tab}: tab
-{up}: up arrow
+- {alt}: alt
+- {altr}: right alt
+- {backspace}: backspace
+- {ctrl}: control
+- {delete}: delete
+- {down}: down arrow
+- {end}: end
+- {enter}: enter/return
+- {esc}: escape
+- {home}: home
+- {left}: left arrow
+- {return}: enter/return
+- {right}: right arrow
+- {shift}: shift
+- {tab}: tab
+- {up}: up arrow
