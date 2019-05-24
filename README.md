@@ -1,52 +1,52 @@
-# useKeycombo
+# useCombo
 
 ## install
 
 ```
-npm install use-keycombo
+npm install use-combo
 ```
 or
 ```
-yarn add use-keycombo
+yarn add use-combo
 ```
 
 ## usage
 
-`useKeycombo` will add a listener to the `document`, which listens for a certain key combination. Once all keys have been pressed, the callback will be fired.
+`useCombo` will add a listener to the `document`, which listens for a certain key combination. Once all keys have been pressed, the callback will be fired.
 
 Simple example, using default key combo (up, up, down, down, left, right, left, right, b, a, enter):
 
 ```js
-import React from 'react';
-import ReactDOM from 'react-dom';
-import useKeycombo from 'useKeycombo'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import useCombo from 'useCombo'
 
 function App() {
-  useKeycombo(() => alert('entered God mode.'))
+  useCombo(() => alert('entered God mode.'))
   return (
     <h1>Hello world!</h1>
-  );
+  )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
 ```
 
-With a string representing the keycombo:
+With a string representing the combo:
 
 ```js
-import React from 'react';
-import ReactDOM from 'react-dom';
-import useKeycombo from 'useKeycombo'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import useCombo from 'useCombo'
 
 function App() {
   const cheatCode = '{up}{up}{down}{down}{left}{right}{left}{right}ba{enter}'
-  useKeycombo(() => alert('entered God mode.'), cheatCode)
+  useCombo(() => alert('entered God mode.'), cheatCode)
   return (
     <h1>Hello world!</h1>
-  );
+  )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
 ```
 
 Valid codes:

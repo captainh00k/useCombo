@@ -1,5 +1,5 @@
 {
-  "name": "use-keycombo",
+  "name": "use-combo",
   "version": "0.9.7",
   "description": "Custom React hook to trigger event after key combination",
   "main": "build/index.js",
@@ -10,8 +10,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/captainh00k/useCheat.git",
-    "bugs": "https://github.com/captainh00k/useCheat/issues"
+    "url": "https://github.com/captainh00k/useCombo.git",
+    "bugs": "https://github.com/captainh00k/useCombo/issues"
   },
   "dependencies": {
     "react": "^16.8.6",

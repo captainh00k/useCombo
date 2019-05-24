@@ -3,8 +3,8 @@ import parseCode from './parseCode'
 
 const defaultCode = '{up}{up}{down}{down}{left}{right}{left}{right}ba{enter}'
 
-export default function useKeycombo(callback, keyCombo = defaultCode) {
-    const parsedCode = parseCode(keyCombo)
+export default function useCombo(callback, combo = defaultCode) {
+    const parsedCode = parseCode(combo)
     const [remainingCharacters, setRemainingCharacters] = useState(parsedCode)
 
     const handleKeypress = (e) => {
