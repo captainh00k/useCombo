@@ -1,6 +1,6 @@
 {
-  "name": "use-cheat",
-  "version": "0.9.4",
+  "name": "use-keycombo",
+  "version": "0.9.7",
   "description": "Custom React hook to trigger event after key combination",
   "main": "build/index.js",
   "author": {
